@@ -1,0 +1,107 @@
+ Easy Level:
+
+    Reverse a Linked List
+    Find the middle node of a Linked List
+    Detect a loop in a Linked List
+    Remove duplicates from a Linked List (sorted and unsorted)
+    Find the Kth node from the end
+    Delete a node (by value or position)
+    Search for a value in the list
+    Rotate the Linked List (left or right)
+      
+  
+Medium Level:
+
+    Reverse a Linked List in groups of K
+    Merge two sorted Linked Lists
+    Check if a Linked List is a palindrome
+    Remove loop from a Linked List
+    Find intersection point of two Linked Lists
+    Add two numbers represented by Linked Lists
+    Swap nodes in pairs
+    Delete N nodes after M nodes
+
+
+🔴 Advanced Level:
+
+    Implement Doubly Linked List
+    Implement Circular Linked List
+    Design LRU Cache using Linked List + HashMap
+    Convert Binary Tree to Doubly Linked List
+    Swap Kth node from beginning and end
+    Sort a Linked List using Merge Sort
+
+
+
+
+
+
+
+
+
+
+
+🧠 What is Heap Memory?
+
+👉 Heap memory is a region of memory used for dynamic allocation.
+When a program runs, memory is split into parts like:
+
+Stack – For function calls, local variables.
+Heap – For dynamic memory (new, malloc, create object, etc.)
+
+
+
+📦 When is Heap memory used?
+✅ When:
+You don’t know the size of data in advance (like user input, file data).
+You want to create objects or arrays during runtime.
+You want to store data after a function ends (not just temporary).
+
+
+🏠 Stack vs Heap Memory (Step 2: Real-Life Table)
+
+Feature	         Stack               	               Heap
+Allocation     	 Automatically by system               Manually by programmer
+Speed	         Very fast	                           Slower
+Size Limit	     Smaller	                           Larger
+Lifetime	     Short (function scope)	               Long (until manually deleted or GC)
+Access	         LIFO	                               Random (via pointers/refs)
+Example      	 Local variables	                   Objects, dynamic arrays
+
+
+
+🧠 Step 4: Pseudocode
+function example():
+    create variable x = 10    --> stored in stack
+    create object y = {...}  --> stored in heap
+    return y
+
+    return y
+      Stack stores:
+      Function calls
+      Primitive values
+
+Heap stores:
+     Dynamic objects
+     Arrays
+     Anything created at runtime
+
+
+✅ Step 1: Concept – What is a Heap?
+
+A Heap is a special tree-based data structure that satisfies the Heap Property.
+There are 2 main types:
+Type	    Rule
+Min Heap	Parent node is always less than or equal to children
+Max Heap	Parent node is always greater than or equal to children
+
+
+
+
+
+
+
+
+
+
+
